@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-image: url(images/hospital.jpg);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-position: center center;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.test-container {
+    background-color: white;
+    width: 400px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.test-header {
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+button {
+    background-color: #8e44ad;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    border: none;
+    font-size: 1.5rem;
+
+}
+
+button:hover {
+    background-color: #732d91;
+}
